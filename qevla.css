@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 /* navigation style */
 
 .qevla-nav{
@@ -19,4 +23,38 @@
 .menu-link {
     color: green;
     padding: 20px;
+}
+.qevla-banner{
+    background: linear-gradient(45deg, rgba(8, 38, 186, 0.7),  rgba(8, 38, 186, 0.5)), url("Towing-service.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: linear-gradient(to right, red , yellow);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 600px;
+    
+}
+span{
+    font-weight: 700;
+}
+.btn_{
+    padding: 12px 10px;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 14px;
+    box-shadow: 0px 0px 44px rgb(0 0 0 / 25%);
+    margin-left: 70px;
+    /* border: none; */
+
+}
+.btn1{
+    background: white;
+    color: #0826BA;
+    border: 2px solid white;
+}
+.btn2{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
 }
